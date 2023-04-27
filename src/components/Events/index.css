@@ -1,0 +1,48 @@
+.events-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.event-item-card {
+  width: 65%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: #64748b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.event-heading {
+  width: 90%;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: bold;
+}
+
+.active-event-card {
+  background-color: #ffffff;
+  width: 35%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .event-heading {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .event-heading {
+    font-size: 45px;
+  }
+}

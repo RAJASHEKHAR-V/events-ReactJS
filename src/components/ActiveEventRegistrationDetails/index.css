@@ -1,0 +1,120 @@
+.active-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.yet-register-image {
+  width: 50%;
+}
+
+.yet-registration-description {
+  font-family: 'Roboto';
+  color: #475569;
+  font-weight: 400;
+  text-align: center;
+}
+
+.button {
+  min-width: 160px;
+  min-height: 28px;
+  max-width: 220px;
+  max-height: 30px;
+  background-color: #0967d2;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+}
+
+.register-image {
+  width: 50%;
+}
+
+.registered-heading {
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-weight: 700;
+  text-align: center;
+}
+
+.register-closed-image {
+  width: 50%;
+}
+
+.registration-closed-heading {
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-weight: 700;
+  text-align: center;
+}
+
+.registration-closed-para {
+  font-family: 'Roboto';
+  color: #3a4b63;
+  font-weight: 400;
+  text-align: center;
+}
+
+.initial-event-para {
+  font-family: 'Roboto';
+  color: #3a4b63;
+  font-weight: 400;
+  align-self: flex-start;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .yet-registration-description {
+    font-size: 12px;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+
+  .registered-heading {
+    font-size: 16px;
+  }
+
+  .registration-closed-heading {
+    font-size: 16px;
+  }
+
+  .registration-closed-para {
+    font-size: 12px;
+  }
+
+  .initial-event-para {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .yet-registration-description {
+    font-size: 15px;
+  }
+
+  .button {
+    font-size: 15px;
+  }
+
+  .registered-heading {
+    font-size: 25px;
+  }
+
+  .registration-closed-heading {
+    font-size: 25px;
+  }
+
+  .registration-closed-para {
+    font-size: 15px;
+  }
+
+  .initial-event-para {
+    font-size: 15px;
+  }
+}
